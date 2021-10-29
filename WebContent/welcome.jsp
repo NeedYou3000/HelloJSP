@@ -7,13 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-<p>Hello JSP</p>
-<a href="login/Login.jsp">Dang nhap</a>
-<%
-int x = 10; int y = 15;
-int z = x+y;
-%>
-
-<h1><%=z %></h1>
+	<%
+	int id = Integer.valueOf(request.getParameter("id"));
+	String name = request.getParameter("name");
+	%>
+	<p><h1>Xin chào <%=name %></h1></p>
+	<p>ID của bạn: <%=id %></p>
 </body>
 </html>

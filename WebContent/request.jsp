@@ -3,17 +3,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF8">
 <title>Insert title here</title>
 </head>
 <body>
-<p>Hello JSP</p>
-<a href="login/Login.jsp">Dang nhap</a>
-<%
-int x = 10; int y = 15;
-int z = x+y;
-%>
-
-<h1><%=z %></h1>
+	<a href="welcome.jsp?id=1&name=vu">Click here</a>
+	
 </body>
 </html>
